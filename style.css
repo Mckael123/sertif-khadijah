@@ -35,8 +35,17 @@ body {
 .label {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    width: 100%;
 }
 
 .input-form{
-    
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    flex-direction: row;
+    align-items: center;
+}
+.input-form input{
+    height: 40px;
 }

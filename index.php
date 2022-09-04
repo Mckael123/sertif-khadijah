@@ -23,13 +23,13 @@
         <h1 style="text-align: center;">Sertifikat Siswa</h1>
         <form method="GET" action="index.php" class="input-form" style="text-align:center ;">
             <label for="" class="label"> Pencarian : </label>
-            <input type="text" class="form-control" name="cari"
+            <input type="text" class="form-control" name="cari" placeholder="No Induk siswa"
                 value="<?php if (isset($_GET['cari'])){echo $_GET['cari'];} ?>">
             <button type="submit" class="btn btn-success mb-3 mt-2">Search</button>
         </form>
         <table class="table table-striped">
             <tr>
-                <th>No. induk</th>
+                <th>No. Induk</th>
                 <th>Nama</th>
                 <th>Link Sertifikat</th>
             </tr>
