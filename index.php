@@ -31,7 +31,7 @@
         if(isset($_GET['cari'])){
             $pencarian = $_GET['cari'];
             if(empty($pencarian)) {
-                header('location: index2.php');
+                header('location: index.php');
                 exit;
            }
             $query ="SELECT * FROM sertif_siswa WHERE No_Induk like '%".$pencarian."%'";
