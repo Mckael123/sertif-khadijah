@@ -23,7 +23,7 @@
         <h1 style="text-align: center;"class="mt-2">Sertifikat Siswa</h1>
         <form method="GET" action="index.php" class="input-form" style="text-align:center ;">
             <label for="" class="label"> Pencarian : </label>
-            <input type="text" class="form-control" name="cari" autocomplete="off">
+            <input type="text" class="form-control" name="cari" placeholder="No .Induk" autocomplete="off">
             <button type="submit" class="btn btn-success mb-3 mt-2">Search</button>
         </form>
         <?php 
